@@ -1,0 +1,16 @@
+{
+  "name": "pnp-binary",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/build-something"
+  ],
+  "scripts": {
+    "postinstall": "build-something"
+  },
+  "installConfig": {
+    "pnp": true
+  }
+}

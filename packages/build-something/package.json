@@ -1,0 +1,8 @@
+{
+  "name": "@pnp-binary/build-something",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "bin": "bin.js"
+}
